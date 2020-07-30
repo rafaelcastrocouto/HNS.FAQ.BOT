@@ -1,4 +1,4 @@
-#HNS.FAQ.BOT
+# HNS.FAQ.BOT
 
 GPT-3 Discord chat bot to answer frequently asked questions about Handshake
 
@@ -9,25 +9,25 @@ Build for the Sia and Namebase ‘Own The Internet’ Hackathon:
 https://gitcoin.co/hackathon/own-the-internet
 https://github.com/namebasehq/api-documentation/issues/10
 
-###Handshake:
+### Handshake:
 
 Project page: https://handshake.org
 Learn Center: https://learn.namebase.io
 
-###Sia
+### Sia
 
 Project page: https://siasky.net
 Docs: https://sia.tech/docs/#skynet
 
-###Playground:
+### Playground:
 
 Repl.it: https://repl.it/@rafaelcastrocouto/HNSFAQBOT
 
-###Special thanks to:
+### Special thanks to:
 
 @jacobjonz @amasad 
 
-###Powered by:
+### Powered by:
 
 Phyton.org: https://www.python.org
 Openai GPT3: https://github.com/openai
