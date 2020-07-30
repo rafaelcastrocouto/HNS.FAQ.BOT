@@ -28,7 +28,7 @@ def ask(name, log, answer=''):
 
     # keep asking until it ends the sentence
     if not answer.endswith('.'):
-        answer = ask(name, p, answer)
+        answer = ask(name, log, answer)
 
     # remove bot name
     if answer.startswith(name):
@@ -41,7 +41,7 @@ def ask(name, log, answer=''):
 file_names = ['auction', 'dns', 'domains', 'handshake', 'hns', 'wallets']
 datasets = []
 for file_name in file_names:
-    datafile = open(file_name + ".txt", "r")
+    datafile = open('datasets/' + file_name + ".txt", "r")
     datasets.append(datafile.read())
 
 # create server
