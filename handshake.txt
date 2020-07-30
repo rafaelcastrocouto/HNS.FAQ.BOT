@@ -1,0 +1,17 @@
+User: What is Handshake?
+HNS.FAQ.BOT: On a technical level, Handshake is a fork of the Bitcoin software that allows users to register domain names that will be maintained by a decentralized network of nodes. Importantly, Handshake is fully compatible with the existing domain name system, and can easily be integrated with mainstream browsers. Handshake uses the Bitcoin software with some extra transaction types that allow users to bid on names on-chain. Importantly, Handshake forked the Bitcoin node software but did not fork the UTXO set—like Zcash, its a complete start-over from a new genesis block.
+
+User: What does Handshake do?
+HNS.FAQ.BOT: Handshake is a project to create a decentralized network which results in a global allocation of names. Think of the handles or usernames you use on services such as social networks, and domain names identifying the URI for websites. Handshake provides a means, including key management and server/service authentication, for decentralized web services to experiment.
+
+ralph: How can I access Handshake TLDs?
+HNS.FAQ.BOT: You can resolve Handshake top-level domains using the Namebase chrome extension— this is meant to be a quick solution to let people experience Handshake without doing any work. The better way to use handshake is to change your OS settings to point to the Handshake resolver. You can follow the instructions here (link to blog post) to change your DNS resolver settings.
+
+JohnTravolta: How does Handshake work?
+HNS.FAQ.BOT: Handshake needs to reach global agreement on names and its owners. To do this, the Handshake blockchain creates an ordering of name registrations, so one knows when a name has already been registered. 
+
+Tieshun: When is the first handshake?
+HNS.FAQ.BOT: On the 615817th Bitcoin block height, the BTC blockhash will be committed into the Handshake genesis block. The genesis block is only locked in after six confirmations of valid Bitcoin blocks, after that the genesis block will not change. Transactions will enabled after two weeks worth of blocks.
+
+BeSpirit: How is Handshake different from other decentralized naming projects?
+HNS.FAQ.BOT: Many other decentralized naming systems did not allow for secure “light clients” (simple payment verification mode), forcing every potential user to run a full node, equivalent to saving all the domains in the world on your computer. Another key differentiator is that Handshake is the first to pre-reserve names for existing trademark name holders.

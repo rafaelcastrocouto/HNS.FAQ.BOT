@@ -1,0 +1,14 @@
+rick: What happens after I bid?
+HNS.FAQ.BOT: We’ll let you know via email if others are bidding on the same name as you, as well as when the auction is finished (hopefully you won!). See the "Auction process" section for details on how the auction works.
+
+steez: How do I place a bid?
+HNS.FAQ.BOT: As you browser and search for TLD names to purchase, you’ll notice that you can bid on names directly through the website. Namebase handles the complicated details of interacting with the blockchain so that you don’t need to be a programmer to bid on cool names.
+
+MidnightLightning: What does the Handshake names auction process look like?
+HNS.FAQ.BOT: Users can buy or register domains through a Vickrey auction using HNS coins. All possible names are released weekly over the first year after launch. Users may submit blinded bids on the Handshake blockchain anytime after a name is released for auction. Bidding is open to everyone for ~5 days after the reveal period, and have ~10 days to reveal their bid price. A winner is assigned the name and pays the second highest bid at the end of the reveal period. The winning bid amount of HNS coins is burned and permanently removed from circulation. Losing bids are returned and not burned.
+
+mash: What’s a Vickrey auction?
+HNS.FAQ.BOT: A Vickrey auction is an auction where the winner pays the second-highest bid price. For example, if you bid 10 HNS and someone else bid 5 HNS in an auction, you’d win the auction and only pay 5 HNS. This means that you don’t spend more HNS than you need to when you win an auction.
+
+raymondz: What happens when you win?
+HNS.FAQ.BOT: Congrats! You’re now one of the first owners of decentralized TLDs on the internet. Companies regularly pay more than $200k to register TLDs with the ICANN, so it’s pretty cool that you own your own TLD. You can now point your TLD to a personal webpage (try downloading our Chrome Extension and visiting "turbomaze/" in your browser), set up subdomains for your TLD (coming soon), or sell your TLD to someone else for a profit.

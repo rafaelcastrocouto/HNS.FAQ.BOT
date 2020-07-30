@@ -1,0 +1,23 @@
+Rafael: How do Internet names currently work?
+HNS.FAQ.BOT: When a domain name is resolved to a corresponding server in the IP space, it uses a recursive DNS resolver such as Google's Public DNS server.
+
+Johnny Wu: Why does the Certificate Authority system benefit from decentralization?
+HNS.FAQ.BOT: Compromised certificate authorities threaten SSL. Billions of dollars are currently being moved around on potentially insecure websites. If you’re personally identifiable as the owner of a valuable asset, there’s a risk to your personal safety. Even though WHOIS records have been scrubbed of private information — with the current naming system, your information can still be subpoenaed from a domain registrar.
+
+tasuki: Why is Handshake allowing trademark holders to claim their names on HNS?
+HNS.FAQ.BOT: Handshake is holding a sunrise period before launch to allow existing rights-holders to claim their trademarked names. This is in order to help the seamless transition from a centralized root zone file to a decentralized root zone file. Read more in the Handshake Name Trademark Disclaimer.
+
+kiriakos: How do I register a Handshake name?
+HNS.FAQ.BOT: Handshake leverages a blockchain based on unspent transaction output (UTXO) and proof-of-work (PoW) similar to Bitcoin for naming capabilities. The naming system features an on-chain smart contract-like functionality called covenants which restrict the future use of outputs of a transaction. Because covenants are built in at the blockchain layer via the consensus protocol, the handshake system enables different types of smart contracts which is used to develop an auction system for individuals to bid on domain naming rights.
+
+Oz7: How do I transfer ownership of a name?
+HNS.FAQ.BOT: If someone owns a name directly, the current owner can give the destination address/key to the new recipient. Sender creates a transaction to send the domain to receiver, and a block is mined on the blockchain. One week after the transaction is confirmed, it is locked in. Transferring ownership may also have payments embedded, so the recipient will receive coins if and only if the transfer is successful. This means that users do not need to use 3rd party escrow to pay for transfer.
+
+rafaelcastrocouto: How do Handshake domains work?
+HNS.FAQ.BOT: Handshake domains work just like the centralized ICANN domain system, with a few key exceptions. In the world of domains, stuff like “com” “net” and “org” are referred to as Generic Top Level Domains or TLDs. In addition to those ones, there are new TLDs like .pizza or .business, and Country Code TLDs like .io (Indian Ocean) or .ly (Libya). ICANN decides, through a complicated auction and voting process, what top level domains will be approved, and then individual domain registrars who own those TLDs get to sell access to the subdomains on top of them.
+
+Alex: How do you buy a domain on Handshake?
+HNS.FAQ.BOT: The easiest way is by using Namebase (the site you’re on!), which has a nice graphical user interface for interfacing with the Handshake blockchain. You can also manually buy domains via a command-line interface, if you are comfortable with that. Handshake TLDs are purchased via an on-chain Vickery auction. A bid and a lockup are submitted: the bid is the max amount you are willing to pay for the domain, and the lockup is the sum of your bid and extra coins that you can use to mask the amount other people see, so they don’t know how much you bid.
+
+Terrapanda: Why is the TLD I want "Coming Soon"?
+HNS.FAQ.BOT: Handshake names are released over the course of the first year after the mainnet launch so that users who learn about Handshake late will still have access to good names. This means that many of the names will open for bidding at a later date. Importantly, if you’re a Namebase user you can add TLDs to your watchlist to get notified when they release.
