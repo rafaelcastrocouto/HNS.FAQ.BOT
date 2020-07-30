@@ -4,40 +4,32 @@
 
 _Authors: @rafaelcastrocouto and @troq_
 
-## Build for the Sia and Namebase ‘Own The Internet’ Hackathon:
+_Special thanks to: @jacobjonz @amasad_
 
-Hackathon page: https://gitcoin.co/hackathon/own-the-internet
+## Build for the Sia and Namebase ‘Own The Internet’ Hackathon
 
-Github Issue: https://github.com/namebasehq/api-documentation/issues/10
+* Hackathon page: https://gitcoin.co/hackathon/own-the-internet
+* Github Issue: https://github.com/namebasehq/api-documentation/issues/10
 
-### Handshake:
+### Handshake
 
-Project page: https://handshake.org
-
-Learn Center: https://learn.namebase.io
+* Project page: https://handshake.org
+* Learn Center: https://learn.namebase.io
 
 ### Sia
 
-Project page: https://siasky.net
+* Project page: https://siasky.net
+* Docs: https://sia.tech/docs/#skynet
 
-Docs: https://sia.tech/docs/#skynet
+### Playground
 
-### Playground:
+* Bot chat channel: https://discord.gg/4njnnN
+* Repl.it: https://repl.it/@rafaelcastrocouto/HNSFAQBOT
 
-Repl.it: https://repl.it/@rafaelcastrocouto/HNSFAQBOT
+### Powered by
 
-### Special thanks to:
-
-@jacobjonz @amasad 
-
-### Powered by:
-
-Phyton.org: https://www.python.org
-
-Openai GPT3: https://github.com/openai
-
-Discord bot API: https://discord.com/developers
-
-Discord.py: https://github.com/Rapptz/discord.py
-
-Flask: https://github.com/pallets/flask
+* Phyton.org: https://www.python.org
+* Openai GPT3: https://github.com/openai
+* Discord bot API: https://discord.com/developers
+* Discord.py: https://github.com/Rapptz/discord.py
+* Flask: https://github.com/pallets/flask
