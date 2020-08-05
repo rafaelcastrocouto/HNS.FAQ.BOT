@@ -1,0 +1,5 @@
+Q: Why does the Certificate Authority system benefit from decentralization?
+A: Compromised certificate authorities threaten SSL. Billions of dollars are currently being moved around on potentially insecure websites. If you’re personally identifiable as the owner of a valuable asset, there’s a risk to your personal safety. Even though WHOIS records have been scrubbed of private information — with the current naming system, your information can still be subpoenaed from a domain registrar.
+
+Q: When is the first handshake?
+A: On the 615817th Bitcoin block height, the BTC blockhash will be committed into the Handshake genesis block. The genesis block is only locked in after six confirmations of valid Bitcoin blocks, after that the genesis block will not change. Transactions will enabled after two weeks worth of blocks.

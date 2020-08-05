@@ -1,9 +1,8 @@
-Temp: How to I get Handshake coins (HNS)?
-HNS.FAQ.BOT: You can buy HNS directly through Namebase’s exchange by signing up here (make this a link). You can trade USD, BTC, ETH, and more in exchange for HNS. If you’re a developer, you can also sign up for Handshake’s airdrop for a chance to receive 2500+ HNS.
+Q: How to I get Handshake coins (HNS)?
+A: You can buy HNS directly through Namebase’s exchange by signing up here (make this a link). You can trade USD, BTC, ETH, and more in exchange for HNS. If you’re a developer, you can also sign up for Handshake’s airdrop for a chance to receive 2500+ HNS.
 
-User: Why are free and open source contributors receiving the majority of the initial HNS?
-HNS.FAQ.BOT: The Internet, and civilization as a whole, would not be where it is today without the hard work of the free software and open source community and the projects that they work on. The Handshake blockchain will start with an initial supply of 1.36 billion coins, of which ~67.5% will be gifted to FLOSS developers and projects, as well as non profit organizations, universities.
+Q: Why are free and open source contributors receiving the majority of the initial HNS?
+A: The Internet, and civilization as a whole, would not be where it is today without the hard work of the free software and open source community and the projects that they work on. The Handshake blockchain will start with an initial supply of 1.36 billion coins, of which ~67.5% will be gifted to FLOSS developers and projects, as well as non profit organizations, universities.
 
-jacobjonz: When is coinbase listing handshake HNS coins?
-HNS.FAQ.BOT: That depends on coinbase, you should get in touch with their support. You can already check HNS on coinbase in the following link: https://www.coinbase.com/price/handshake.
-
+Q: When is coinbase listing handshake HNS coins?
+A: That depends on coinbase, you should get in touch with their support. You can already check HNS on coinbase in the following link: https://www.coinbase.com/price/handshake.

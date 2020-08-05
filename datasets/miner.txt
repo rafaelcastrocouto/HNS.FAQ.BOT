@@ -1,9 +1,8 @@
-Mary: What is 6block?
-HNS.FAQ.BOT: 6block is one of the first mining pools to be ready for the Handshake launch. 6block is built for performance and designed to be stable, fast and secure.
+Q: What is 6block?
+A: 6block is one of the first mining pools to be ready for the Handshake launch. 6block is built for performance and designed to be stable, fast and secure.
 
-Sarah: What is 6miner? 
-HNS.FAQ.BOT: 6miner is a highly optimized miner for Handshake and it performs over 20% faster than HandyMiner on most GPUs tested. It is a direct competitor to HandyMiner, which is also a very good miner. 
-Links to both miners are provided and we encourage people to test and decide which option will suit them best. 
+Q: What is 6miner? 
+A: 6miner is a highly optimized miner for Handshake and it performs over 20% faster than HandyMiner on most GPUs tested. It is a direct competitor to HandyMiner, which is also a very good miner. Links to both miners are provided and we encourage people to test and decide which option will suit them best. 
 
-Nerd: How can I mine handshake, how to become a miner and win HNS?
-HNS.FAQ.BOT: A guide for mining Handshake coins can be found on our (learn center)[https://learn.namebase.io/advanced-topics/mining-hns].
+Q: How can I mine handshake, how to become a miner and win HNS?
+A: A guide for mining Handshake coins can be found on our (learn center)[https://learn.namebase.io/advanced-topics/mining-hns].

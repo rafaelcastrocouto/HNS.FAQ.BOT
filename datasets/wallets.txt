@@ -1,5 +1,5 @@
-Anonimous: How do I create a wallet?
-HNS.FAQ.BOT: Namebase automatically creates a wallet for you when you create an account (make "create an account" a link). You can use your Namebase wallet to register Handshake names, buy and sell HNS, and even send HNS to others. Of course, you can always transfer your HNS out of your Namebase wallet and into another wallet whenever you want.
+Q: How do I create a wallet?
+A: Namebase automatically creates a wallet for you when you create an account (make "create an account" a link). You can use your Namebase wallet to register Handshake names, buy and sell HNS, and even send HNS to others. Of course, you can always transfer your HNS out of your Namebase wallet and into another wallet whenever you want.
 
-Anonimous: How do I send to my wallet?
-HNS.FAQ.BOT: Just paste in your Namebase HNS wallet address into the send adress to withdraw your HNS to Namebase.
+Q: How do I send to my wallet?
+A: Just paste in your Namebase HNS wallet address into the send adress to withdraw your HNS to Namebase.

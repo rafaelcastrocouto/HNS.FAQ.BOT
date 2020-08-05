@@ -1,9 +1,9 @@
-Nulver: Does Handshake replace DNS?
-HNS.FAQ.BOT: No. Handshake is meant to replace the root zone file, not DNS. Browsing the web with human readable names is what Internet users have gotten acclimated to. Our solution allows for a seamless transition between a centralized name root zone file controlled by private parties to a decentralized root zone file controlled by actual Internet users.
+Q: Does Handshake replace DNS?
+A: No. Handshake is meant to replace the root zone file, not DNS. Browsing the web with human readable names is what Internet users have gotten acclimated to. Our solution allows for a seamless transition between a centralized name root zone file controlled by private parties to a decentralized root zone file controlled by actual Internet users.
 
-batmanbat: Why is Handshake pre-reserving the top tens of thousands of domain names according to Alexa.com?
-HNS.FAQ.BOT: Existing TLDs and over 100,000 Alexa websites are reserved on the Handshake blockchain. Upon removing collisions, generic, and exclusions (e.g. 1 or 2 character names), approximately 80,000 names remain. Using the root key and DNSSEC, domain owners can cryptographically prove ownership to the Handshake blockchain to claim names. 100,000 was chosen as a number which the ownership is clear and has already gone through policy and process.
+Q: Why is Handshake pre-reserving the top tens of thousands of domain names according to Alexa.com?
+A: Existing TLDs and over 100,000 Alexa websites are reserved on the Handshake blockchain. Upon removing collisions, generic, and exclusions (e.g. 1 or 2 character names), approximately 80,000 names remain. Using the root key and DNSSEC, domain owners can cryptographically prove ownership to the Handshake blockchain to claim names. 100,000 was chosen as a number which the ownership is clear and has already gone through policy and process.
 
-bigshoots: What can you do with Handshake and DNS now?
-HNS.FAQ.BOT: Using a Handshake Name System (HNS) resolver, you can verify fingerprints in a decentralized way. Using OpenSSH, it’s possible to store SSH fingerprints in DNS. DNS has an additional feature that allows you to verify TLS certificates by storing a hash of your ‘SubjectPublicKeyInfo’. This allows a P2P way to trust self-signed certificates, as long as they have a valid DNSSEC trust chain set up. This means anyone can set up a valid trust chain without having to ask for permissions.
+Q: What can you do with Handshake and DNS now?
+A: Using a Handshake Name System (HNS) resolver, you can verify fingerprints in a decentralized way. Using OpenSSH, it’s possible to store SSH fingerprints in DNS. DNS has an additional feature that allows you to verify TLS certificates by storing a hash of your ‘SubjectPublicKeyInfo’. This allows a P2P way to trust self-signed certificates, as long as they have a valid DNSSEC trust chain set up. This means anyone can set up a valid trust chain without having to ask for permissions.
 
