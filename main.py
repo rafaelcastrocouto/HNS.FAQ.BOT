@@ -67,6 +67,7 @@ t.start()
 
 
 # create discord bot client
+print('https://discord.gg/EYnfxHb')
 CHANNEL_ID = 357574292541669377
 client = discord.Client()
 
