@@ -23,7 +23,7 @@ _Special thanks to: @jacobjonz @amasad_
 
 ### Playground
 
-* Bot chat channel: https://discord.gg/4njnnN
+* Bot chat channel: https://discord.gg/EYnfxHb
 * Repl.it: https://repl.it/@rafaelcastrocouto/HNSFAQBOT
 
 ### Powered by
