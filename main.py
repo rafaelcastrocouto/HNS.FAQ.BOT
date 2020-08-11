@@ -4,27 +4,34 @@ import discord
 from flask import Flask
 from threading import Thread
 
+sorry = 'Sorry I cannot answer this question. Please try at searching at our Learning center: https://learn.namebase.io.'
+
 # setup openapi
 openai.api_key = os.environ.get('OPENAI')
-
 
 def score(e):
     return e.score
 
 def ask(log, answer=''):
 
-    responses = openai.Completion.create(
-        engine = 'davinci',
-        prompt = log, # prompt max tokens=2049
-        max_tokens = 100, # response max tokens
-        temperature = 0.1, # Float value controlling randomness in boltzmann distribution.The model will become deterministic at zero
-        stop = '\n')
+    pre = 'My name is HNS.FAQ.BOT and I only answer internet related questions. If you ask me an unrelated question, I will respond with: "'+sorry+'"\n'
 
-    print(log + responses.choices[0].text)
-    answer += responses.choices[0].text
+    responses = openai.Completion.create(
+        engine='davinci',
+        prompt=pre + log,  # prompt max tokens=2049
+        max_tokens=100,  # response max tokens
+        temperature=
+        0.1,  # Float value controlling randomness in boltzmann distribution.The model will become deterministic at zero
+        stop='\n')
+
+    response = responses.choices[0].text
+
+    # print('\n\n' + pre + log + response + '\n')
+
+    answer += response
 
     if not len(answer):
-        answer = "Please try at searching at our Learning center: https://learn.namebase.io."
+        answer = sorry
 
     # remove bot name
     if answer.startswith('A: '):
@@ -35,14 +42,7 @@ def ask(log, answer=''):
 
 # read all datasets.txt
 file_names = [
-  'auction', 
-  'ca',
-  'dns', 
-  'domains', 
-  'handshake', 
-  'hns', 
-  'miner',
-  'wallets'
+    'auction', 'ca', 'dns', 'domains', 'handshake', 'hns', 'miner', 'wallets'
 ]
 datasets = []
 for file_name in file_names:
@@ -65,16 +65,18 @@ def start_server():
 t = Thread(target=start_server)
 t.start()
 
-
 # create discord bot client
-print('https://discord.gg/EYnfxHb')
 CHANNEL_ID = 357574292541669377
 client = discord.Client()
+
+# channel invite 
+print('https://discord.gg/EYnfxHb')
 
 
 @client.event
 async def on_ready():
     print('Logged in as ' + client.user.name)
+    # bot authorization link
     print(
         'https://discordapp.com/oauth2/authorize?client_id={}&scope=bot&permissions=116736'
         .format(client.user.id))
@@ -109,9 +111,9 @@ async def on_message(message):
         content = ''
         for msg in reversed(channel_hist):
             if msg.author.name == client.user.name:
-              content += 'A: ' + msg.content
+                content += 'A: ' + msg.content
             else:
-              content += 'Q: ' + msg.content
+                content += 'Q: ' + msg.content
             for embed in msg.embeds:
                 content += '[' + str(embed.title) + '](' + str(embed.url) + ')'
             content += '\n'
@@ -128,7 +130,7 @@ async def on_message(message):
         z = zip(map(score, result.data), history[:-n])
 
         # create new array with history sorted by score
-        best_hist = [x for _,x in reversed(sorted(z))];
+        best_hist = [x for _, x in reversed(sorted(z))]
 
         # best history matches
         best_history = ''
@@ -143,6 +145,8 @@ async def on_message(message):
         result.data.sort(reverse=True, key=score)
         best_faq = datasets[result.data[0].document]
 
+        best_score = result.data[0].score
+
         # semantic search for best question
         best_in_faq = best_faq.split('\n\n')
         result = openai.Engine("davinci").search(
@@ -150,6 +154,9 @@ async def on_message(message):
         # sorts by score
         result.data.sort(reverse=True, key=score)
         best_q = best_in_faq[result.data[0].document]
+
+        best_score = max(best_score, result.data[0].score)
+        # print('best score', best_score)
 
         log += best_q
 
@@ -163,12 +170,16 @@ async def on_message(message):
         if not msg in log:
             log += msg + '\n'
 
-        log += 'A: '
+        log += 'A:'
 
         #print('## discord', msg + '\n');
 
         # ask openai and send response to discord
-        response = ask(log)
+        if (best_score > 75):
+          response = ask(log)
+        else:
+          response = sorry + '\n'
+
         await message.channel.send(response)
 
 
